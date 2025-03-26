@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liu Ziyi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Liu Ziyi</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li> <!-- 修改为跳转到 #home -->
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div id="app">
+        <!-- Home Section -->
+        <section class="welcome-section" id="home"> <!-- 添加 id="home" -->
+            <div class="content">
+                <h1 class="hello">Hello</h1>
+                <h2 class="welcome-title">Welcome to Liu Ziyi's World</h2>
+                <p class="welcome-text">Explore my expertise in AI, digital media, marketing strategy, and creative production.</p>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="page" id="about">
+            <div class="content about-content">
+                <h2>About Me</h2>
+                <div class="about-container">
+                    <img src="personal_photo.png" alt="My Profile Picture" class="profile-photo">
+                    <div class="about-text">
+                        <p>Hello! My name is Liu Ziyi. I major in AI and Digital Media at HKBU. I specialize in AI algorithms, statistical analysis, marketing strategy, and media content production.</p>
+                        <p><strong>Skills:</strong> HTML, CSS, Python, Figma, Photoshop, Premiere Pro</p>
+                        <p><strong>Interests:</strong> Web development, UI/UX design, and photography.</p>
+                        <!-- CV Download Button -->
+                        <a href="Ziyi Liu-CV .pdf" download="Ziyi Liu-CV.pdf" class="cv-download-btn">
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="page" id="portfolio">
+            <div class="content">
+                <h2>Portfolio</h2>
+                <!-- 滑动提示 -->
+                <p class="scroll-hint">Swipe left or right to browse through the projects ⟵⟶</p>
+                <div class="portfolio-row">
+                    <!-- Portfolio Item 1 -->
+                    <div class="portfolio-item">
+                        <img src="picture1.png" alt="Machine Learning Project">
+                        <h3>Machine Learning Project</h3>
+                        <p>Predicting Credit Card Approvals using Machine Learning</p>
+                        <a href="https://medium.com/@amansangal9/predicting-credit-card-approvals-8409c5280f91" 
+                           class="learn-more-btn" 
+                           target="_blank" 
+                           rel="noopener noreferrer">Learn More</a>
+                    </div>
+
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio-item">
+                        <img src="picture2.png" alt="Data Analysis Project">
+                        <h3>Data Analysis Project</h3>
+                        <p>Korean Drama Popularity Trend Analysis and Exploration</p>
+                        <a href="https://drive.google.com/drive/folders/1K-Nf7vsQNHibvraVLrBO2OChJPDA9uoz" 
+                           class="learn-more-btn" 
+                           target="_blank" 
+                           rel="noopener noreferrer">Learn More</a>
+                    </div>
+
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio-item">
+                        <img src="picture4.png" alt="Multimedia Production">
+                        <h3>Multimedia Production</h3>
+                        <p>My personal YouTube page with multimedia works.</p>
+                        <a href="https://www.youtube.com/@yabinyy" 
+                           class="learn-more-btn" 
+                           target="_blank" 
+                           rel="noopener noreferrer">Learn More</a>
+                    </div>
+
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio-item">
+                        <img src="jellycat_marketing.png" alt="Marketing Strategy Project">
+                        <h3>Marketing Strategy Project</h3>
+                        <p>Jellycat's marketing strategy</p>
+                        <a href="https://docs.google.com/presentation/d/1ht_GvYblZtxv58gj666fQxMYBFsz7pLkouLcbyoFuQA/edit?slide=id.p#slide=id.p" 
+                           class="learn-more-btn" 
+                           target="_blank" 
+                           rel="noopener noreferrer">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="page" id="contact">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:irishoneyy@gmail.com">irishoneyy@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname">linkedin.com/in/yourname</a></p>
+                <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
